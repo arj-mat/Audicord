@@ -22,7 +22,7 @@ Audio is uploaded to Discord and will be available on the channel where you type
 # Notes
 Run *npm install* for installing dependencies.
 
-A valid Discord Bot Token must be set on *settings.js*.
+A valid Discord Bot Token must be provided on *settings.js|settings.ts*.
 
 Initialize Node.JS on *app.js*.
 
