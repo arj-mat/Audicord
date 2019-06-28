@@ -25,7 +25,7 @@ A valid Discord Bot Token must be provided on *settings.js|settings.ts*. You can
 
 Run *npm install* for installing dependencies.
 
-Initialize Node.JS on *app.js*.
+Use *node app.js* for running the bot.
 
 This project relies on the [Discord.js API](https://github.com/discordjs/discord.js).
 
