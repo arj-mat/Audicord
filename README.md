@@ -5,7 +5,7 @@ This Node.JS bot, written in TypeScsript, implements a web server and browser-si
 Works on Chrome and Firefox, on PC and Android. 
 
 # Demonstration
-Type **/audio** on a text channel and the bot you DM you a private link, directing to it's web server where you'll be able to record your voice.
+Type **/audio** on a text channel and the bot will DM you a private link, directing to it's web server where you'll be able to record a message from your microphone.
 
 Allow microphone access on your browser when requested.
 
