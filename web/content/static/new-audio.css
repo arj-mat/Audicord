@@ -1,0 +1,136 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #1e1e1e;
+    color: #d4d4c8;
+    font-size: 12px;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.error-card-wide.mdl-card {
+    width: 60vw;
+    background-color: #3a2222;
+}
+
+.error-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background-image: url('https://discordapp.com/assets/b78035b8e2a6a4885d4448198963a14e.svg');
+    background-size: 126px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.error-card-wide .mdl-card__supporting-text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.error-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.recording-card-wide.mdl-card {
+    width: 70vw;
+    background-color: #36393f;
+}
+
+.recording-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background-image: url('https://discordapp.com/assets/269f6e131a6014360770f946afb002e9.svg');
+    background-size: 126px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.recording-card-wide .mdl-card__supporting-text {
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+.recording-card-wide .mdl-card__supporting-text .title {
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.recording-card-wide .mdl-card__supporting-text .title span {
+    font-weight: lighter;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 2px;
+    border-radius: 4px;
+    height: min-content;
+    font-size: 16px;
+}
+
+.recording-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+#recorder, #player {
+    align-items: center;
+    text-align: center;
+}
+
+#recorder .mdl-button--colored {
+    background-color: white;
+    background-size: 70%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#recorder .mdl-button--colored.btn-record {
+    background-image: url('https://discordapp.com/assets/26a727a30b2342317fb0df394e399df1.svg');
+}
+
+#recorder .mdl-button--colored.btn-stop {
+    background-image: url('https://discordapp.com/assets/7d8e9e2805bdb7b32248f72fc9c94080.svg');
+}
+
+#recorder .timer {
+    font-size: 32px;
+    margin-left: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    height: 56px;
+    vertical-align: text-bottom;
+}
+
+#player {
+    display: none;
+}
+
+#player audio {
+    width: 80%;
+}
+
+#player .btn-submit {
+    background-color: rgb(181, 63, 63);
+}
+
+#player .btn-reset {
+    margin-left: 1rem;
+    color: white;
+}
+
+#player .upload-failed, #submission-progress .upload-failed {
+    margin-top: 1rem;
+    color: lightcoral;
+}
+
+#submission-progress {
+    text-align: center;
+    display: none;
+}
