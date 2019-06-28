@@ -43,7 +43,7 @@
 
                     $('#recorder .timer').html( `0${minutes}:${(seconds > 9 ? seconds : '0' + seconds)} <font color="gray">/ 01:00</font>` );
 
-                    if (duration == 60) {
+                    if (duration >= 60000) {
                         stopRecording();
                     }
                 }
