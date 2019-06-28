@@ -1,1 +1,27 @@
 # Audicord
+
+This Node.JS bot, written in TypeScsript, implements a web server and browser-side JavaScript, allowing to quickly record and submit audio messages over Discord text channels.
+
+Works on Chrome and Firefox on PC and Android. 
+
+# Demonstration
+Type **/audio** on a text channel and the bot you DM you a private link, directing to it's web server where you'll be able to record your voice.
+
+Allow microphone access on your browser when requested.
+
+You can record up to 1 minute and listen to your message before submitting.
+
+Audio is uploaded to Discord and will be available on the channel where you typed */audio*, as an embed.
+
+![Audicord screenshot](https://github.com/arj-mat/Audicord/blob/master/web/content/static/img-dm.png?raw=true)
+
+![Audicord screenshot](https://github.com/arj-mat/Audicord/blob/master/web/content/static/img-recording.png?raw=true)
+
+![Audicord screenshot](https://raw.githubusercontent.com/arj-mat/Audicord/master/web/content/static/screenshot1.png)
+
+# Notes
+Run *npm install* for installing dependencies.
+
+A valid Discord Bot Token must be set on *settings.js*.
+
+Initialize Node.JS on *app.js*.
