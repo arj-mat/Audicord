@@ -20,9 +20,10 @@ Audio is uploaded to Discord and will be available on the channel where you type
 ![Audicord screenshot](https://raw.githubusercontent.com/arj-mat/Audicord/master/web/content/static/screenshot1.png)
 
 # Notes
-Run *npm install* for installing dependencies.
 
-A valid Discord Bot Token must be provided on *settings.js|settings.ts*.
+A valid Discord Bot Token must be provided on *settings.js|settings.ts*. You can get yourself one at https://discordapp.com/developers/applications/.
+
+Run *npm install* for installing dependencies.
 
 Initialize Node.JS on *app.js*.
 
