@@ -27,3 +27,5 @@ A valid Discord Bot Token must be set on *settings.js*.
 Initialize Node.JS on *app.js*.
 
 This project relies on the [Discord.js API](https://github.com/discordjs/discord.js).
+
+Made for for the [2019 Discord Hackweek](https://blog.discordapp.com/discord-community-hack-week-build-and-create-alongside-us-6b2a7b7bba33).
