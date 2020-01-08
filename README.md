@@ -6,8 +6,6 @@ Works on Chrome and Firefox, on PC and Android.
 
 # Demonstration
 
-**[Join Audicord Test server on Discord: https://discord.gg/3eneSDt](https://discord.gg/3eneSDt)**
-
 Type **/audio** on a text channel and the bot will DM you a private link, directing to it's web server where you'll be able to record a message from your microphone.
 
 Allow microphone access on your browser when requested.
